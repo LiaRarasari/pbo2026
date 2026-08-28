@@ -1,5 +1,5 @@
 # Praktikum Git dan GitHub
 
-**Nama:** Lia Rarasari  
-**NIM:** H1101251025  
-**Jurusan:** Sistem Informasi
+Nama:Lia Rarasari  
+NIM: H1101251025  
+Jurusan: Sistem Informasi
