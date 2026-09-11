@@ -1,9 +1,9 @@
 <?php
 
-require_once '../app/Shapes/Lingkaran.php';
-require_once '../app/Shapes/Bola.php';
-require_once '../app/Shapes/Tabung.php';
-require_once '../app/Shapes/Kerucut.php';
+require_once __DIR__ . '/../app/Shapes/Lingkaran.php';
+require_once __DIR__ . '/../app/Shapes/Bola.php';
+require_once __DIR__ . '/../app/Shapes/Tabung.php';
+require_once __DIR__ . '/../app/Shapes/Kerucut.php';
 
 $lingkaran = new Lingkaran();
 $lingkaran->jari_jari = 7;
