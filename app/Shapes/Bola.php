@@ -1,0 +1,13 @@
+<?php
+
+class Bola
+{
+    const PHI = 3.14;
+
+    public float $jari_jari;
+
+    public function volume(): float
+    {
+        return (4 / 3) * self::PHI * pow($this->jari_jari, 3);
+    }
+}
