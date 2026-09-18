@@ -1,0 +1,17 @@
+{
+    "name": "liara/pbo2026",
+    "description": "Pemrograman Berorientasi Objek",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lia Rarasari",
+            "email": "h1101251025@student.untan.ac.id"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
