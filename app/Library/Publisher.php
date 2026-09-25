@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Library;
+
 class Publisher
 {
     public string $name;

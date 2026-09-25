@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Library;
+
 class Book
 {
     public int $ISBN;
