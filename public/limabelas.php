@@ -14,3 +14,5 @@ $tendik1->bekerja();
 
 echo "Tunjangan kinerja dosen: Rp" . $dosen1->hitungTunjanganKinerja() . "<br>";
 echo "Tunjangan kinerja tenaga kependidikan: Rp" . $tendik1->hitungTunjanganKinerja() . "<br>";
+
+$tendik1->ajukanCuti(5);
