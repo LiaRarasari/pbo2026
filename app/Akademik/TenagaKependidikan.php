@@ -23,7 +23,7 @@ class TenagaKependidikan extends Pegawai implements PenilaianKinerja, DapatCuti
 
     public function hitungTunjanganKinerja(): int
     {
-        return $this->gaji_pokok * 0.2;
+        return (int) ($this->gaji_pokok * 0.2);
     }
 
     public function cuti(): void
@@ -33,7 +33,7 @@ class TenagaKependidikan extends Pegawai implements PenilaianKinerja, DapatCuti
 
     public function ajukanCuti(int $jumlahHari): void
     {
-        echo "{$this->nama} sedang mengajukan cuti selama {$jumlahHari} hari";
+        echo "{$this->nama} sedang mengajukan cuti selama {$jumlahHari} hari.<br>";
     }
 
     public function getGajiPokok(): int
