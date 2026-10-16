@@ -38,3 +38,9 @@ if ($pegawaiRepo->simpanPegawai($tendik1)) {
 } else {
     echo "Data tenaga kependidikan gagal disimpan.\n";
 }
+
+$listDosen = $pegawaiRepo->ambilSemuaDosen();
+
+foreach ($listDosen as $dsn) {
+    echo "Dosen dengan nama {$dsn->nama} lulus sertifikasi \n";
+}
